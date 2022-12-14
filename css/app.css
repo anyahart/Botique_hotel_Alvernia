@@ -1,0 +1,518 @@
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: -3rem;
+}
+
+body{
+
+font-family: gill-sans-nova,sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  padding: 0rem;
+  background-color: rgba(0,0,0,.2);
+}
+
+
+
+header h1{
+    font-size: 5rem;
+    text-align: top;
+    text-align: center;
+}
+
+header h6{
+    color: #fff;
+    padding: 0 0;
+}
+
+@media screen and (min-width: 40em){
+  header h1 {
+    font-size: 5rem;
+    text-align: center;
+  }
+}
+
+header .button{
+    
+    margin-right: ;
+     border-radius: 30px;
+  background: #fff;
+    border-color: #fff;
+    color: black;
+   margin-left: 0rem;
+}
+
+header .button:hover{
+    background-color: transparent;
+    color: #fff;
+}
+
+a{
+    color: white;
+}
+
+nav {
+  padding: 1.5rem 0;
+  background-color: rgba(0,0,0,.2);
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #212121;
+}
+
+.hero{
+    padding: ;
+    height:100vh;
+    background: url(../img/james-donaldson-toPRrcyAIUY-unsplash.jpg) 100% 100%;
+    background-size: cover;
+    position: relative;
+}
+
+.hero .grid-container{
+    position: absolute;
+    bottom: 10rem;
+    left: 70%;
+    width: 100%;
+    transform: translateX(-70%);
+    padding-left: 3rem;
+    padding-top: 2rem;
+}
+
+.hero a{
+    color: #fff;
+    font-size: 55px;
+    border-left: 3px solid #fff;
+    padding-left: .5rem;   
+}
+
+.reveal{
+     
+/*    background: url(../img/reveal@2x.jpg) 100% 100%;*/
+    background-color: rgba(0,0,0,.7);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+@media screen and (min-width: 40em){
+    .reveal{
+        padding-top: 3rem;
+        width: 70%;
+        height: 60vh;
+        border-color: transparent;
+    }
+}
+    .reveal h1{
+        font-size: 6rem;
+    }
+    .reveal h2{
+        color: #fff;
+        font-size: 3rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        font-family: gill-sans-nova,sans-serif;
+
+font-style: normal;
+        
+    }
+
+.booking{
+   
+  
+    background-color: #F5F5F5;
+    overflow: hidden;
+    padding: .5rem;
+    padding-left: 1rem;
+    position: relative;
+    margin-top: 0rem;
+    margin-left: 0;
+}
+
+.button.small{
+    font-size: .9rem;
+    
+}
+
+@media screen and (min-width: 40em){
+    .booking{
+         margin-left: 15rem;
+    margin-top: -5rem;
+    margin-right: 15rem;
+        background-color: #fff;
+         border-radius: 30px;
+        padding-left: 2rem;
+    }
+    .submit button radius small{
+        
+    }
+    
+}
+.button{
+   margin-top: 1.3rem;
+    margin-left: 3rem;
+     border-radius: 30px;
+  background: #B0CCD5;
+    border-color: #B0CCD5;
+}
+
+.button:hover{
+    background-color: transparent;
+    border-color: #B0CCD5;
+    color: black;
+    
+}
+
+table .table{
+border-radius: 30px;
+    border-collapse: none;
+    background-color: transparent; 
+    padding-left: 3rem;
+    
+}
+
+.table .grid-x{
+/*
+    border-collapse: none;
+   border-radius: 30px;
+    background-color: #ffffff; 
+    padding-left: 3rem;
+*/
+}
+
+
+
+thead{
+    background-color: transparent;
+    border: 0;
+}
+
+.welcome h6{
+    padding-top: 2rem;
+    padding-bottom: -2rem;
+    letter-spacing: 2px;
+}
+
+.welcome h2{
+    font-size: 6rem;
+    text-align: center;
+    margin-top: -1.5rem;
+    line-height: 1;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    
+    
+}
+
+.welcome p{
+    font-size: 1.2rem;
+    padding: 0 2rem;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+
+
+p{
+    color: #444545;
+    
+}
+
+h1{
+    
+   font-family: contralto-big,sans-serif;
+font-weight: 400;
+font-style: normal;
+font-style: normal;
+color: white;
+   
+}
+
+h2{
+
+    text-align: center;
+    font-family: contralto-big,sans-serif;
+font-weight: 600;
+font-style: normal;
+    color: #444545;
+    font-size: 5rem;
+}
+
+
+h3{
+    
+    font-family: contralto-big,sans-serif;
+font-weight: 600;
+font-style: normal;
+    color: black;
+    font-size: 2rem;
+    
+    
+}
+h4{
+    text-align: center;
+    font-family: contralto-big,sans-serif;
+font-weight: 600;
+font-style: normal;
+    color:  white;
+    font-size: 5rem;
+}
+
+h5{
+    text-align: center;
+    font-family: contralto-big,sans-serif;
+font-weight: 600;
+font-style: normal;
+    color: black;
+    font-size: 3rem;
+}
+
+h6{
+    font-family: gill-sans-nova,sans-serif;
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.welcom{
+    margin-left: 6rem;
+    margin-right: 6rem;
+}
+
+.orbit{
+    padding-bottom: 5rem;
+}
+
+.scuba .text{
+    padding-left: 4.5rem;
+    padding-bottom: 2rem;
+    padding-top: 1.5rem;
+}
+
+.scuba h1{
+    font-size: 5rem;
+   line-height: 1;
+    margin-bottom: 2rem;
+}
+
+.scuba h1 span{
+    display: block;
+}
+
+.scuba h6{
+    text-align: left;
+    color: #fff;
+}
+
+.scuba p{
+    text-align: left;
+    font-size: 1.2rem;
+    padding-right: 7rem;
+    color: #fff;
+}
+
+.services{
+    padding-left: 3rem;
+     padding-right: 3rem;
+    padding-bottom: 3rem;
+}
+.services h2{
+    margin-top: 2rem;
+}
+
+.galley{
+    background-color: #B0CCD5;
+}
+
+.scuba{
+    background-color: #B0CCD5;
+    
+}
+.scuba .grid-x {
+    align-items: flex-start;
+}
+
+.scuba .button{
+    margin-top: 1.5rem;
+    margin-right: .5rem;
+     border-radius: 30px;
+  background: transparent;
+    border-color: #fff;
+    margin-left: 1rem;
+}
+
+.scuba .button:hover{
+    
+    background-color: #fff;
+    color: black;
+  
+}
+
+.services h6{
+    color: black;
+    text-align: left;
+    font-size: 1.5rem;
+    padding-top: 1rem;
+}
+
+
+
+
+.rooms{
+    padding-bottom: .1rem;
+    margin: 1rem;
+}
+
+.rooms h5{
+    font-family: contralto-big,sans-serif;
+    font-weight: 500;
+font-style: normal;
+    text-align: left;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 2.5rem;
+}
+
+.rooms p{
+    text-align: left;
+    padding: 0 2rem;
+}
+
+.rooms img{
+    max-width: 100%;
+    
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.rooms .button{
+    margin-top: 3rem;
+    margin-left: 2rem;
+     border-radius: 30px;
+  background: #B0CCD5;
+    border-color: #B0CCD5;
+    
+    
+}
+.rooms .button:hover{
+    
+    background: transparent;
+    border-color: #B0CCD5;
+    color: gray;
+}
+
+.galley img{
+    max-width: ;
+    margin-right: 
+}
+
+.galley .text{
+    padding-left: 4.5rem;
+    padding-top: 1.5rem;
+}
+
+.galley h1{
+    font-size: 5rem;
+    padding-right: 2rem;
+    padding-top: -1rem;
+}
+
+.galley h6{
+    text-align: left;
+    color: #fff;
+}
+
+.galley p{
+    text-align: left;
+    font-size: 1.2rem;
+    padding-right: 3rem;
+    color: #fff;
+}
+
+.galley .button{
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+    margin-left: 2rem;
+     border-radius: 30px;
+  background: transparent;
+    border-color: #fff;
+    align-content: left;
+    
+}
+.galley .button:hover{
+    
+    background-color: #fff;
+    color: black;
+}
+.excursions h2{
+    margin-top: 2rem;
+    
+}
+
+.excusions p{
+    font-size: 1.25rem;
+    padding: 0 2rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    max-width: 60rem;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.4;
+}
+
+
+
+footer{
+    
+    background-color: #659CAC;
+   color: aliceblue;
+    padding: 2rem;
+    padding-bottom: 5rem;
+    
+    
+}
+
+footer p{
+    padding-left: 2rem;
+    color: white;
+}
+
+footer .info{
+    text-align: right;
+    padding-top: 1.5rem;
+    font-style: italic;
+}
+
+footer h1{
+    text-align: center;
+}
+
+footer a{
+    
+    color: aliceblue;
+
+}
